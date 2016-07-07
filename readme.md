@@ -54,11 +54,11 @@ creator:
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 
-- Experience a typical GA learning experience through active learning exercises.
-- Gain an introductory understanding of a new skill or insight that can be utilized in a professional setting.  
-- Learn from materials created in conjunction with an experienced web-developer.
+- Gain an overview of the web development landscape and where HTML/CSS fits in the web ecosystem.
 - Describe the difference between front-end and back-end code and the basic components of HTML, CSS, and Javascript.
-- Use HTML and CSS to mark up a basic webpage. 
+- Use HTML and CSS to mark up a basic webpage.
+- Describe the different jobs that use coding or benefit from an understanding of HTML/CSS.
+- Describe the various opportunities to continue learning web-development.  
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should:*
@@ -78,8 +78,10 @@ creator:
 ## Opening (7 mins)
 
 - Review current lesson objectives.
+- You can then include a hook / real-world relevance, here is a suggestion:
+	- "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. Tonight we will be learning the building blocks that will allow you to get creative and bring your ideas to life."
 - Ask each student to share first name and answer the following question: "What brought you here tonight?."
-- Include Hook / Real-world Relevance (why the content from this lesson is useful or important).
+
 
 > Instructor Note: Use instructor notes to talk directly to instructors. Otherwise, write out lesson directions and materials in a student-facing voice.
 
@@ -107,12 +109,14 @@ In this section you will be discussing what web development is on a high level.
 
 #### Web Production Workflow:
 
+![](wp.jpg)
+
 In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
 
 - UX - user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
-- Design - take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
-- Front End - bring the designs to life with HTML, CSS, and JS.
-- Back End - gives the website a "memory," you can briefly touch on databases, authenticating users etc. 
+- Design - designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
+- Front End - front end developers bring the designs to life with HTML, CSS, and JS.
+- Back End - back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc. 
 
 #### Front End vs Back End in More Detail: 
 
@@ -153,7 +157,6 @@ You will be walking students through how to write the following tags in Code Pen
 	- img
 	- a
 
-- This is your opportunity to grab the attention of students and get them excited about code. Encourage students to show their neighbor what their site is looking like so far, etc. 
 - If you would like you can have students practice searching img and a tags on their own and implement them in Code Pen. A recommended search I like to tell student's about is "img tag mdn." MDN is a resource I highly recommend. 
 
 ## HTML Scaffold (15 mins) 
@@ -218,6 +221,7 @@ Here is the prompt for the deliverable:
 In this section you will be going over the CSS syntax. Important concepts to include are:
 
 - Start by explaining how the syntax differs from HTML.
+- Explain to students that there are three types of CSS: inline (CSS is in the same line at the HTML, internal (CSS is in the same file as the HTML), and external (CSS is in a separate file, but in the same folder as the HTML). Industry standard is to create an external CSS file. You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept. 
 - You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file. 
 
 
@@ -266,9 +270,8 @@ Here is a prompt for the deliverable:
 <a name="conclusion"></a>
 ## Conclusion (6 mins)
 - Review independent practice deliverable(s). 
-- If time permits you can go over the last slides which have to do with how to edit an existing webpage, and a discussion on who needs to know the content covered in this class, and what students can do after class. 
+- Go over the last slides which have to do with how to edit an existing webpage, and a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out. 
 - Recap topic(s) covered in today's lesson.
-- Cover homework and/or upcoming tasks.
 
 ***
 
