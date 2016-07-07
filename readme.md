@@ -6,48 +6,6 @@ creator:
     city: San Francisco
 ---
 
-> #### *Guiding Questions When Using This Template*
->
-> - [ ] Are the learning objectives measurable?
->   - [ ] Are there between 2-5 learning objectives?*
->   - [ ] Are the learning objectives specific enough?
->   - [ ] Do these learning objectives help students work toward the unit project?
->
->
-> - [ ] How will this lesson culminate? (final activity + conclusion; should be 15-25 mins)
->
->
-> - [ ] Are activities spaced out with enough time for each?
->   - [ ] Did you include knowledge "Checks" or activities at the end of every component to test comprehension?
->   - [ ] If reusing an existing resource, is there enough content for a given length of time?
->
->
-> - [ ] Did you provide guidance for both students & instructors?
->   - [ ] What will instructors have to do to prepare for this lesson?
->   - [ ] What will students have to do to prepare for this lesson?
->   - [ ] What should students do to review or prepare for the next lesson?
->
-> #### *How to Use This Template*
-> * Static Components: Reserve roughly 5 min for Opening, 5 unscheduled "buffer" mins for overrun, & at least 5 min for Conclusion (end of lesson review).
->
->
-> * Modular Components: The units of instruction are: Intro, Demo, Guided-Practice, & Independent-Practice. These can be cycled or intermixed in various orders, depending on the topic / content.
-
-> #### *Components of the lesson plan*
-
-> - Opening: this only happens once; used to introduce the agenda, review material, and provide a motivating example / the problem we're trying to solve with this skill/content
-> - Introduction: this is a section dedicated to introducing and contextualizing new vocabulary, ideas, and code syntax that will be practiced in later sections
-> - Demo: an instructor-led session demonstrating proper techniques or syntax examples
-> - Guided Practice: interactive instructor by which the instructor engages with and probes students for answers to guide the discussion or activity
-> - Independent Practice: a block of time where students are able to practice what they've learned; the instructor provides directions and the students use the directions to complete an exercise
-> - Conclusion: a time to sum up the lesson, review the answers to a final independent practice, and/or pose discussion questions
-> - Check: a moment to check to understand students are following; it can be done with a question about content, a general "How comfortable are you with this?", or the instructor can check the output of students code to ensure they've completed the assignment properly
-
-> NOTE: the lesson you create does not have to follow a progression of Introduction > Demo > Guided Practice > Independent Practice - a combination of these is often ideal - but a lesson must always begin with an Opening and end wth a Conclusion.
-
-
-
----
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Coding 101 : HTML + CSS
 
 
