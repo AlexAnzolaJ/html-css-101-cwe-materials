@@ -21,7 +21,7 @@ creator:
 ### STUDENT PRE-WORK
 *Before this lesson, you should:*
 
-- Install ____ editor on your computer.
+- Install Sublime Text 3 on your computer.
 - Have Google Chrome on your computer.
 
 ### INSTRUCTOR PREP
@@ -33,28 +33,40 @@ creator:
 
 ---
 <a name="opening"></a>
-## Opening (7 mins)
+## Opening (5 mins)
 
 - Review current lesson objectives.
-- You can then include a hook / real-world relevance, here is a suggestion:
+
+> You can then include a hook / real-world relevance, here is a suggestion:
 	- "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. Tonight we will be learning the building blocks that will allow you to get creative and bring your ideas to life."
-- Ask each student to share first name and answer the following question: "What brought you here tonight?."
-
-
-> Instructor Note: Use instructor notes to talk directly to instructors. Otherwise, write out lesson directions and materials in a student-facing voice.
-
+	
+- Each student will share first name and answer the following question: "What brought you here tonight?."
 
 ***
 
 <a name="introduction"></a>
-## Introduction: (20 mins)
+## Introduction: (15 mins)
 
 > Instructor Note: Discuss topic and explain by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
 
 #### How the World Wide Web Works:
 
-In this section you will be discussing how the world wide web works. It is important here to include the following:
+> In this section you will be discussing how the world wide web works. It is important here to include the following:
 
+- Web communication comes down to requests and responses. 
+- What is a host?
+
+> Host: A server that stores the files that make up a website.  
+
+- What is a client? 
+
+> Client: user, the computer requesting to view the website. 
+
+- What makes up a request? 
+
+> Request: Starts off with the client typing the web address in to the browser address bar. It is called a "get request." Web browsers actually don’t use URLs to request web sites from servers, instead they use IP addresses (internet protocol) which is just a series of numbers that is unique to a web address. Something called the DNS(Domain Name System) server is responsible for finding the IP address that matches the web address that was typed in. The corresponding IP address is sent back to your web browser
+
+- What makes up a response?
 - When you type in google.com in to the browser, you are sending what is called a *get request*.
 - The request is first received by the DNS (Domain Name System) server, which serves like the "yellow pages" - it finds which IP (Internet Protocol) address matches the domain name the user typed in.
 - Once the corresponding IP address is found, the request continues to the web server, which hosts the files that make up the front end of a site.
@@ -84,7 +96,7 @@ In this section you will be discussing the process of going from an idea to a fu
 
 **Check:** Insert 1-2 guiding questions to ensure students are comprehending the material.
 
-## Front End Languages: (7 mins)
+## Front End Languages: (10 mins)
 
 - In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript. 
 - You can use the terminology in the slides: 
@@ -226,7 +238,7 @@ Here is a prompt for the deliverable:
 ***
 
 <a name="conclusion"></a>
-## Conclusion (6 mins)
+## Conclusion (10 mins)
 - Review independent practice deliverable(s). 
 - Go over the last slides which have to do with how to edit an existing webpage, and a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out. 
 - Recap topic(s) covered in today's lesson.
