@@ -71,35 +71,35 @@ creator:
 - The request is first received by the DNS (Domain Name System) server, which serves like the "yellow pages" - it finds which IP (Internet Protocol) address matches the domain name the user typed in.
 - Once the corresponding IP address is found, the request continues to the web server, which hosts the files that make up the front end of a site.
 - Tie this in to why we as front end developers are a vital part of this cycle.
-- Have students turn to person next to them and explain this cycle in their own words as if they were explaining it to someone who is 12 years of age. 
+- Have students turn to person next to them and explain this cycle in their own words as if they were explaining it to someone who is 12 years of age.
 
 #### What is Web Development?:
 
-In this section you will be discussing what web development is on a high level. 
+In this section you will be discussing what web development is on a high level.
 
 #### Web Production Workflow:
 
-![](wp.jpg)
+![](assets/wp.jpg)
 
 In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
 
 - UX - user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
 - Design - designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
 - Front End - front end developers bring the designs to life with HTML, CSS, and JS.
-- Back End - back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc. 
+- Back End - back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc.
 
-#### Front End vs Back End in More Detail: 
+#### Front End vs Back End in More Detail:
 
-- Describe in more detail how the front end differentiates from the back end. 
-- Use the diagrams to help aid you with this description. 
-- If time permits you can visit expedia.com and describe to students which part of the site is front end and which is back end. 
+- Describe in more detail how the front end differentiates from the back end.
+- Use the diagrams to help aid you with this description.
+- If time permits you can visit expedia.com and describe to students which part of the site is front end and which is back end.
 
 **Check:** Insert 1-2 guiding questions to ensure students are comprehending the material.
 
 ## Front End Languages: (10 mins)
 
-- In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript. 
-- You can use the terminology in the slides: 
+- In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript.
+- You can use the terminology in the slides:
 	- HTML = bones
 	- CSS = skin
 	- JavaScript = brain
@@ -107,11 +107,11 @@ In this section you will be discussing the process of going from an idea to a fu
 	- HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
 	- CSS = adjective (responsible for styles like color or font family)
 	- JavaScript = verb (responsible for behaviors, like drop-down menus)
-- End this section with the ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS. 
+- End this section with the ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS.
 
 ## HTML Syntax (5 mins)
 
-- In this section you will explain the HTML syntax. 
+- In this section you will explain the HTML syntax.
 - Start by explaining content tags, how they work, and what they are on a high level.
 - You will then transition in to the demo.  
 
@@ -127,19 +127,19 @@ You will be walking students through how to write the following tags in Code Pen
 	- img
 	- a
 
-- If you would like you can have students practice searching img and a tags on their own and implement them in Code Pen. A recommended search I like to tell student's about is "img tag mdn." MDN is a resource I highly recommend. 
+- If you would like you can have students practice searching img and a tags on their own and implement them in Code Pen. A recommended search I like to tell student's about is "img tag mdn." MDN is a resource I highly recommend.
 
-## HTML Scaffold (15 mins) 
+## HTML Scaffold (15 mins)
 
 In this section you will be explaining the HTML scaffold below to students. You will explain in detail what each line of code is responsible for. Some important things to mention:
 
-- <!DOCTYPE html> tells the browser that you are using HTML5. 
-- The html tag opens the HTML document, and the closing tag ends the HTML document. 
-- Nested within the html tags are two sections, the head and the body. Just like with the human anatomy, the head is above the body. 
-- The head contains information that you don't want the user to see within the browser window. 
-- The title tags declares what will be shown in the tab. 
-- The meta charset tag is responsible for character encoding. 
-- The body contains everything you do want the user to see within the browser window. 
+- <!DOCTYPE html> tells the browser that you are using HTML5.
+- The html tag opens the HTML document, and the closing tag ends the HTML document.
+- Nested within the html tags are two sections, the head and the body. Just like with the human anatomy, the head is above the body.
+- The head contains information that you don't want the user to see within the browser window.
+- The title tags declares what will be shown in the tab.
+- The meta charset tag is responsible for character encoding.
+- The body contains everything you do want the user to see within the browser window.
 
 ***
 
@@ -174,12 +174,12 @@ Use the lesson topic/skill to create a deliverable that meets certain criteria.
 
 Here is the prompt for the deliverable:
 
-1. Create a folder on your desktop and title it “Coding 101” 
-2. Open up the folder you just made in your text editor 
-3. Save your file as “index.html” 
+1. Create a folder on your desktop and title it “Coding 101”
+2. Open up the folder you just made in your text editor
+3. Save your file as “index.html”
 4. Type out the HTML basic layout  
-5. Open up the HTML file in Google Chrome 
-6. Add more content tags: h1-h6, p, ul/li, button, a, img to create an “About Me” webpage 
+5. Open up the HTML file in Google Chrome
+6. Add more content tags: h1-h6, p, ul/li, button, a, img to create an “About Me” webpage
 7. Keep your editor open
 
 **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
@@ -191,8 +191,8 @@ Here is the prompt for the deliverable:
 In this section you will be going over the CSS syntax. Important concepts to include are:
 
 - Start by explaining how the syntax differs from HTML.
-- Explain to students that there are three types of CSS: inline (CSS is in the same line at the HTML, internal (CSS is in the same file as the HTML), and external (CSS is in a separate file, but in the same folder as the HTML). Industry standard is to create an external CSS file. You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept. 
-- You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file. 
+- Explain to students that there are three types of CSS: inline (CSS is in the same line at the HTML, internal (CSS is in the same file as the HTML), and external (CSS is in a separate file, but in the same folder as the HTML). Industry standard is to create an external CSS file. You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept.
+- You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file.
 
 
 <a name="demo"></a>
@@ -200,9 +200,9 @@ In this section you will be going over the CSS syntax. Important concepts to inc
 
 Add styling to the basic HTML page you created in your last demo. Remember to connect your two files during your demo. Take them through the workflow:
 
-- If closed, open up your folder than contains your HTML file in the editor 
+- If closed, open up your folder than contains your HTML file in the editor
 - Save a new file in the editor as style.css (make sure it is saved in the same folder as the HTML file)
-- Style at least one element 
+- Style at least one element
 - Save your file and open up project in the browser
 - Ask students why nothing happened
 - Students should respond that you need to connect the two files, once they do add a link tag to the head of your HTML file
@@ -225,22 +225,23 @@ Use the lesson topic/skill to create a deliverable that meets certain criteria.
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
-Here is a prompt for the deliverable: 
+Here is a prompt for the deliverable:
 
 1. You should still have the “Coding 101” folder open in your editor
-2. Create a new file from the editor, save the file as “style.css” 
+2. Create a new file from the editor, save the file as “style.css”
 3. Add a few CSS properties(color, background-color, font-family, text-align) to the content created in the last activity   
-4. Connect your external CSS file to your HTML file 
-5. Open up the HTML file in Google Chrome 
+4. Connect your external CSS file to your HTML file
+5. Open up the HTML file in Google Chrome
 
 **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 ***
 
 <a name="conclusion"></a>
+
 ## Conclusion (10 mins)
 - Review independent practice deliverable(s). 
-- Go over the last slides which have to do with how to edit an existing webpage, and a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out. 
+- Go over the last slides which have to do with how to edit an existing webpage, and a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
 - Recap topic(s) covered in today's lesson.
 
 ***
