@@ -27,7 +27,7 @@ creator:
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
 
-- Have students install either Sublime Text 3 or Atom on to computer (choose one before telling students which one to install).
+- Have students install Sublime Text 3 or Atom on to computer.
 - Write learning objectives on board.
 - Make sure wifi network and password  (GA Guest, yellowpencil)  is written on board, since students will need to be online to use codepen.io.
 
@@ -38,7 +38,7 @@ creator:
 - Review current lesson objectives.
 
 > You can then include a hook / real-world relevance, here is a suggestion:
-	- "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. Tonight we will be learning the building blocks that will allow you to get creative and bring your ideas to life."
+	 "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. Tonight we will be learning the building blocks that will allow you to get creative and bring your ideas to life."
 	
 - Each student will share first name and answer the following question: "What brought you here tonight?."
 
@@ -64,24 +64,38 @@ creator:
 
 - What makes up a request? 
 
-> Request: Starts off with the client typing the web address in to the browser address bar. It is called a "get request." Web browsers actually don’t use URLs to request web sites from servers, instead they use IP addresses (internet protocol) which is just a series of numbers that is unique to a web address. Something called the DNS(Domain Name System) server is responsible for finding the IP address that matches the web address that was typed in. The corresponding IP address is sent back to your web browser
+> Request: Starts off with the client typing the web address in to the browser address bar. Web browsers actually don’t use URLs to request web sites from servers, instead they use IP(internet protocol) addresses, which is just a series of numbers that is unique to a web address. Something called the DNS(Domain Name System) server is responsible for finding the IP address that matches the web address that was typed in. The corresponding IP address is sent back to your web browser. Your machine(client) then sends a request to the machine at the IP address specified. 
 
 - What makes up a response?
+
+> Response: The machine at the IP address specified holds the files that make up the front end of the website (the front end of the website is everything you can see and interact with). These files are sent to the client in the form of small data packets. 
+> 
+> When explaining the graphic below you can use the following to guide you:
+
+![](assets/ww.jpg)
+
 - When you type in google.com in to the browser, you are sending what is called a *get request*.
 - The request is first received by the DNS (Domain Name System) server, which serves like the "yellow pages" - it finds which IP (Internet Protocol) address matches the domain name the user typed in.
 - Once the corresponding IP address is found, the request continues to the web server, which hosts the files that make up the front end of a site.
+
+>
 - Tie this in to why we as front end developers are a vital part of this cycle.
 - Have students turn to person next to them and explain this cycle in their own words as if they were explaining it to someone who is 12 years of age.
 
+> **Check:** Describe how requests differ from responses.
+
 #### What is Web Development?:
 
-In this section you will be discussing what web development is on a high level.
+> In this section you will be discussing what web development is on a high level. 
+
+- The creation and management of both websites and web-based applications.
+- Most Developers will try to convince you that it is magic, but it is mainly editing text files (coding / programming), and solving problems. 
 
 #### Web Production Workflow:
 
 ![](assets/wp.jpg)
 
-In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
+> In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
 
 - UX - user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
 - Design - designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
@@ -90,48 +104,60 @@ In this section you will be discussing the process of going from an idea to a fu
 
 #### Front End vs Back End in More Detail:
 
+>
 - Describe in more detail how the front end differentiates from the back end.
-- Use the diagrams to help aid you with this description.
+- Use the diagrams on slides 23-29 to help aid you with this description.
 - If time permits you can visit expedia.com and describe to students which part of the site is front end and which is back end.
 
-**Check:** Insert 1-2 guiding questions to ensure students are comprehending the material.
+> **Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
 ## Front End Languages: (10 mins)
 
-- In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript.
-- You can use the terminology in the slides:
+> In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript.
+
+- On the front end, the:
 	- HTML = bones
 	- CSS = skin
 	- JavaScript = brain
-- You can also introduce the following:
+- Another way to put it:
 	- HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
 	- CSS = adjective (responsible for styles like color or font family)
 	- JavaScript = verb (responsible for behaviors, like drop-down menus)
-- End this section with the ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS.
+	
+> End this section with the ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS. The directions of this activity state:
+> 
+> 1. Let’s visit lyft.com together
+2. The words “Rides in Minutes” appears due to ______?
+3. The reason for which “Rides in Minutes”  is centered and white is due to _______?
+4. Hover over the word “Explore” in the navigation menu. That animation is most likely due to _______?
 
 ## HTML Syntax (5 mins)
 
-- In this section you will explain the HTML syntax.
-- Start by explaining content tags, how they work, and what they are on a high level.
-- You will then transition in to the demo.  
+> In this section you will explain the HTML syntax. Start by explaining content tags, how they work, and what they are on a high level. You will then transition in to the demo.  
 
 ## Demo: HTML (20 mins)
 
-You will be walking students through how to write the following tags in Code Pen:
+- You will be learning how to write the following tags in Code Pen:
 
-	- h1 > h6
-	- p
-	- br
-	- il/li
-	- ol/li
-	- img
-	- a
+	| Tag Name:  |  Written As: | 
+	|---|---|
+	| Headings | h1 -> h6 
+	|Paragraph | p 
+	|Line break | br
+	|Unordered list/list item | ul/li 
+	|Ordered list/list item | ol/li
+	|Image |img 
+	|Anchor | a 
 
-- If you would like you can have students practice searching img and a tags on their own and implement them in Code Pen. A recommended search I like to tell student's about is "img tag mdn." MDN is a resource I highly recommend.
+- A great resource is MDN (Mozilla Developer Network). MDN can be found at this [link](https://developer.mozilla.org/en-US/).
+
+> During this demo you will be walking students through step by step instructions on how to write the tags above. You will type out each of these tags during this demonstration. 
+
+> If you would like you can have students practice searching img and a tags on their own and implement them in Code Pen. A recommended search I like to tell student's about is "img tag mdn." 
 
 ## HTML Scaffold (15 mins)
 
-In this section you will be explaining the HTML scaffold below to students. You will explain in detail what each line of code is responsible for. Some important things to mention:
+> In this section you will be explaining the HTML scaffold below to students. You will explain in detail what each line of code is responsible for. Some important things to mention:
 
 - <!DOCTYPE html> tells the browser that you are using HTML5.
 - The html tag opens the HTML document, and the closing tag ends the HTML document.
@@ -159,7 +185,8 @@ In this section you will be explaining the HTML scaffold below to students. You 
 
 ***
 
-- Ask students to watch you as you create an HTML document. Take them through the workflow:
+> Ask students to watch you as you create an HTML document. Take them through the workflow:
+>
 	- Create a folder
 	- Open the entire folder in editor
 	- Save a file in the editor as index.html in the folder created
@@ -168,7 +195,7 @@ In this section you will be explaining the HTML scaffold below to students. You 
 
 <a name="ind-practice"></a>
 ## Independent Practice: Creating your first HTML file (15 mins)
-Use the lesson topic/skill to create a deliverable that meets certain criteria.
+
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -182,24 +209,38 @@ Here is the prompt for the deliverable:
 6. Add more content tags: h1-h6, p, ul/li, button, a, img to create an “About Me” webpage
 7. Keep your editor open
 
+
+	| Tag Name:  |  Written As: | What will your content be: |
+	| --- | --- | --- |
+	| Headings | h1 -> h6 | Your Name
+	|Paragraph | p | What you're passionate about
+	|Line break | br
+	|Unordered list/list item | ul/li | A list of your last three work positions
+	|Ordered list/list item | ol/li
+	|Image |img | Your LinkedIn photo
+	|Anchor | a | A link to your LinkedIn profile
+
 **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 ***
 
 ## CSS Syntax (10 mins)
 
-In this section you will be going over the CSS syntax. Important concepts to include are:
+> In this section you will be going over the CSS syntax. Important concepts to include are:
 
-- Start by explaining how the syntax differs from HTML.
-- Explain to students that there are three types of CSS: inline (CSS is in the same line at the HTML, internal (CSS is in the same file as the HTML), and external (CSS is in a separate file, but in the same folder as the HTML). Industry standard is to create an external CSS file. You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept.
-- You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file.
+- CSS syntax differs from HTML.
+- There are three types of CSS: inline (CSS is in the same line at the HTML, internal (CSS is in the same file as the HTML), and external (CSS is in a separate file, but in the same folder as the HTML). Industry standard is to create an external CSS file. 
+
+> You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept.
+> 
+You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file.
 
 
 <a name="demo"></a>
 ## Demo: CSS (5 mins)
 
-Add styling to the basic HTML page you created in your last demo. Remember to connect your two files during your demo. Take them through the workflow:
-
+> Add styling to the basic HTML page you created in your last demo. Remember to connect your two files during your demo. Take them through the workflow:
+>
 - If closed, open up your folder than contains your HTML file in the editor
 - Save a new file in the editor as style.css (make sure it is saved in the same folder as the HTML file)
 - Style at least one element
@@ -215,13 +256,13 @@ h1 {
 }
 ```
 
-**Check:** By this point, students should be able to write out an HTML file from scratch so that they can now add CSS to their pages.
+> **Check:** By this point, students should be able to write out an HTML file from scratch so that they can now add CSS to their pages.
 
 
 
 <a name="ind-practice"></a>
 ## Independent Practice: Topic (10 mins)
-Use the lesson topic/skill to create a deliverable that meets certain criteria.
+
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -229,17 +270,21 @@ Here is a prompt for the deliverable:
 
 1. You should still have the “Coding 101” folder open in your editor
 2. Create a new file from the editor, save the file as “style.css”
-3. Add a few CSS properties(color, background-color, font-family, text-align) to the content created in the last activity   
+3. Add a few CSS properties(color, background-color, font-family, text-align) to the content created in the last activity. Ideas on what to do here: 
+	- Make the picture rounded
+	- Make the font of the paragraphs 30px font
+	- Bonus: add a border to the top and bottom of the page 
 4. Connect your external CSS file to your HTML file
 5. Open up the HTML file in Google Chrome
 
-**Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
+> **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 ***
 
 <a name="conclusion"></a>
 
 ## Conclusion (10 mins)
+>
 - Review independent practice deliverable(s). 
 - Go over the last slides which have to do with how to edit an existing webpage, and a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
 - Recap topic(s) covered in today's lesson.
@@ -253,5 +298,6 @@ Here is a prompt for the deliverable:
 
 
 ### ADDITIONAL RESOURCES
-- Add your own resources.
+>
+>- Add your own resources.
 - There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
