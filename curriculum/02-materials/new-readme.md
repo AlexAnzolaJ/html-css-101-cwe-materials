@@ -261,7 +261,7 @@ h1 {
 
 
 <a name="ind-practice"></a>
-## Independent Practice: Topic (10 mins)
+## Independent Practice: Creating your first CSS file (10 mins)
 
 
 > Instructor Note: This can be a pair programming activity or done independently.
