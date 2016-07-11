@@ -97,10 +97,10 @@ creator:
 
 > In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
 
-- UX - user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
-- Design - designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
-- Front End - front end developers bring the designs to life with HTML, CSS, and JS.
-- Back End - back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc.
+- UX: user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
+- Design: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
+- Front End: front end developers bring the designs to life with HTML, CSS, and JS.
+- Back End: back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc.
 
 #### Front End vs Back End in More Detail:
 
