@@ -8,15 +8,21 @@ This repository/folder contains all the materials General Assembly supplies for 
 
 <!--  Taken from Confluence -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+HTML and CSS are the fundamental building blocks of the web. Whether you're a beginner who wants to get started in web development, a designer looking to hand-code their concepts, or a marketer who wants a little more control over their CMS, you'll need to know HTML and CSS to get the job done.
+
+In this hands-on introductory workshop, we discuss the web development community and how the web works.  We’ll go over key coding terminology and principles, introduce languages like HTML and CSS—what their functions are, how they work together—and use that new knowledge to write our own code and develop our own simple site.
+
+Students should be familiar with the basic functions of their computer, such as launching programs, creating folders, copying and pasting objects, formatting text, finding and saving files.
 
 #### Students Will Learn How To:
 
 <!-- a bulleted list of learning goals from Confluence -->
 
-- Goal 1
-- Goal 2
-- Goal 3
+Gain an overview of the web development landscape and where HTML/CSS fits in the web ecosystem.
+Describe the difference between front-end and back-end code and the basic components of HTML, CSS, and Javascript.
+Use HTML and CSS to mark up a basic webpage.
+Describe the different jobs that use coding or benefit from an understanding of HTML/CSS.
+
 
 ---
 
