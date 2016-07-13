@@ -8,18 +8,17 @@ The following information is provided to help contextualize this class/workshop 
 
 In order to make sure that students are best prepared for this workshop, we suggest recommending the following prerequisites. Students should have some basic foundations in the following areas:
 
-* X
-* Y
-* Z
+* Basic computer literacy (creating folders, saving, etc.)
+* Typing
 
 
 ## Follow-up Recommendations
 
 In order to provide students with continued pathways for growth, we suggest using the following resources to create a custom learning plan, based on your students' goals and interests:
 
-* X
-* Y
-* Z
+* Full Time: Web Development Immersive or WDI Remote
+* Part Time: Front End Web Development or Javascript
+* Online: HCD Circuit 
 
 ---
 
