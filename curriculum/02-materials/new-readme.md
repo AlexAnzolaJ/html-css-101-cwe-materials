@@ -19,10 +19,10 @@ creator:
 - Describe the various opportunities to continue learning web-development.  
 
 ### STUDENT PRE-WORK
-*Before this lesson, you should:*
+*Before this lesson, students should:*
 
-- Install Sublime Text 3 on your computer.
-- Have Google Chrome on your computer.
+- Install Sublime Text 3 on their computer.
+- Have Google Chrome on their computer.
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -37,7 +37,7 @@ creator:
 
 - Review current lesson objectives.
 
-> You can then include a hook / real-world relevance, here is a suggestion:
+> Hook:
 	 "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. Tonight we will be learning the building blocks that will allow you to get creative and bring your ideas to life."
 	
 - Each student will share first name and answer the following question: "What brought you here tonight?."
@@ -48,10 +48,14 @@ creator:
 ## Introduction: (15 mins)
 
 > Instructor Note: Discuss topic and explain by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
+Intro to GA
+GA Overview - General Assembly transforms thinkers into creators through education and opportunities in technology, business, and design. What began as a co-working space in 2011 has since grown into a global learning experience, with campuses in 15 cities and over 25,000 graduates worldwide (and growing!)
+General Assembly offers a variety of courses, workshops, and resources in fields like: Product Management, Digital Marketing, User Experience Design, Web Development, Data Analytics, Mobile Development, and Data Science. At the end of class, we will direct you to how to learn more!
+
 
 #### How the World Wide Web Works:
 
-> In this section you will be discussing how the world wide web works. It is important here to include the following:
+> In this section we will discuss how the world wide web works.
 
 - Web communication comes down to requests and responses. 
 - What is a host?
@@ -70,7 +74,7 @@ creator:
 
 > Response: The machine at the IP address specified holds the files that make up the front end of the website (the front end of the website is everything you can see and interact with). These files are sent to the client in the form of small data packets. 
 > 
-> When explaining the graphic below you can use the following to guide you:
+> Instrucor Note: When explaining, use the graphic below to guide you:
 
 ![](assets/ww.jpg)
 
@@ -79,41 +83,44 @@ creator:
 - Once the corresponding IP address is found, the request continues to the web server, which hosts the files that make up the front end of a site.
 
 >
-- Tie this in to why we as front end developers are a vital part of this cycle.
-- Have students turn to person next to them and explain this cycle in their own words as if they were explaining it to someone who is 12 years of age.
+- Instructor Note: Tie this in to why we as front end developers are a vital part of this cycle.
+- **Turn and Talk:** Turn to person next to you and explain this cycle in your own words as if you were explaining it to someone who is 12 years of age.
+- Debrief:  Share: Did anyone have a really creative way of explaining this?
 
-> **Check:** Describe how requests differ from responses.
+> **Check:** How do requests differ from responses?
 
 #### What is Web Development?:
 
-> In this section you will be discussing what web development is on a high level. 
+> In this section, we will discuss what web development is on a high level. 
 
-- The creation and management of both websites and web-based applications.
+- Web development is the creation and management of both websites and web-based applications.
 - Most Developers will try to convince you that it is magic, but it is mainly editing text files (coding / programming), and solving problems. 
 
 #### Web Production Workflow:
 
 ![](assets/wp.jpg)
 
-> In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
+> In this section we will discuss the process of going from an idea to a fully developed and launched site. 
 
 - UX: user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
 - Design: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
 - Front End: front end developers bring the designs to life with HTML, CSS, and JS.
-- Back End: back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc.
+- Back End: back end developers give the website a "memory," 
+- 	Instructor Note: you can briefly touch on databases, authenticating users etc.
 
 #### Front End vs Back End in More Detail:
 
 >
-- Describe in more detail how the front end differentiates from the back end.
-- Use the diagrams on slides 23-29 to help aid you with this description.
-- If time permits you can visit expedia.com and describe to students which part of the site is front end and which is back end.
+- Let's talk in more detail how the front end differentiates from the back end.
+- Instructor Note:
+- 	Use the diagrams on slides 23-29 to help aid you with this description.
+	 If time permits you can visit expedia.com and describe to students which part of the site is front end and which is back end.
 
-> **Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
+> **Check:** How is the front end different from the back end of a website?
 
 ## Front End Languages: (10 mins)
 
-> In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript.
+> In this section, we will learn what they THREE front end languages are: HTML, CSS, and JavaScript.
 
 - On the front end, the:
 	- HTML = bones
@@ -124,7 +131,7 @@ creator:
 	- CSS = adjective (responsible for styles like color or font family)
 	- JavaScript = verb (responsible for behaviors, like drop-down menus)
 	
-> End this section with the ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS. The directions of this activity state:
+> GROUP ACTIVITY: DISTINGUISH BETWEEN HTML, CSS, AND JS. The directions of this activity state:
 > 
 > 1. Let’s visit lyft.com together
 2. The words “Rides in Minutes” appears due to ______?
@@ -133,7 +140,7 @@ creator:
 
 ## HTML Syntax (5 mins)
 
-> In this section you will explain the HTML syntax. Start by explaining content tags, how they work, and what they are on a high level. You will then transition in to the demo.  
+> Now it's time to explore HTML syntax. You are going to see content tags, how they work, and what they are on a high level. Then we will  transition in to the demo.  
 
 ## Demo: HTML (20 mins)
 
@@ -151,13 +158,13 @@ creator:
 
 - A great resource is MDN (Mozilla Developer Network). MDN can be found at this [link](https://developer.mozilla.org/en-US/).
 
-> During this demo you will be walking students through step by step instructions on how to write the tags above. You will type out each of these tags during this demonstration. 
+>Instructor Note: During this demo you will be walking students through step by step instructions on how to write the tags above. You will type out each of these tags during this demonstration. 
 
 > If you would like you can have students practice searching img and a tags on their own and implement them in Code Pen. A recommended search I like to tell student's about is "img tag mdn." 
 
 ## HTML Scaffold (15 mins)
 
-> In this section you will be explaining the HTML scaffold below to students. You will explain in detail what each line of code is responsible for. Some important things to mention:
+>Let's explore the HTML scaffold. We will look at what each line of code is responsible for. Some important things to know:
 
 - <!DOCTYPE html> tells the browser that you are using HTML5.
 - The html tag opens the HTML document, and the closing tag ends the HTML document.
@@ -185,7 +192,7 @@ creator:
 
 ***
 
-> Ask students to watch you as you create an HTML document. Take them through the workflow:
+> Instructor Note: Ask students to watch you as you create an HTML document. Take them through the workflow:
 >
 	- Create a folder
 	- Open the entire folder in editor
@@ -195,7 +202,6 @@ creator:
 
 <a name="ind-practice"></a>
 ## Independent Practice: Creating your first HTML file (15 mins)
-
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -226,14 +232,13 @@ Here is the prompt for the deliverable:
 
 ## CSS Syntax (10 mins)
 
-> In this section you will be going over the CSS syntax. Important concepts to include are:
+> In this section we will be going over the CSS syntax. 
 
 - CSS syntax differs from HTML.
 - There are three types of CSS: inline (CSS is in the same line at the HTML, internal (CSS is in the same file as the HTML), and external (CSS is in a separate file, but in the same folder as the HTML). Industry standard is to create an external CSS file. 
 
-> You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept.
-> 
-You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file.
+> Instructor Note:  You can display this [website](http://www.w3schools.com/css/css_howto.asp) while you are explaining this concept.
+> You will then transition in to the demo which will include showing students how to connect the HTML file to the external CSS file.
 
 
 <a name="demo"></a>
@@ -241,7 +246,7 @@ You will then transition in to the demo which will include showing students how 
 
 > Add styling to the basic HTML page you created in your last demo. Remember to connect your two files during your demo. Take them through the workflow:
 >
-- If closed, open up your folder than contains your HTML file in the editor
+- If closed, open up your folder that contains your HTML file in the editor
 - Save a new file in the editor as style.css (make sure it is saved in the same folder as the HTML file)
 - Style at least one element
 - Save your file and open up project in the browser
